@@ -11,7 +11,7 @@ function Contact(){
                     <input className='p-[1%] bg-slate-300 text-slate-900' type="text" placeholder='Name' name='name'/>
                     <input className='my-[2%] p-[1%] bg-slate-300 text-slate-900' type="email" placeholder='Email' name='email'/>
                     <textarea name='message' rows="5" className=' bg-slate-300 p-[1%] text-slate-900' placeholder='Message'></textarea>
-                    <button className='text-white b-2 hover:bg-pink-600 hover:border-pink-600 p-[1.5%] my-[4%] mx-auto border-2 '>Submit</button>
+                    <button className='text-white b-2 hover:bg-pink-600 hover:border-pink-600 p-[1.5%] my-[4%] mx-auto border-2 ' onClick={() => form.reset()}>Submit</button>
                 </form>
             </div>
         </>
